@@ -11,6 +11,7 @@ Steps to create your own theme:
 
 Below is how all UIs are layered in a theme. 
 
+```
  ----------------------------------
 | THEME HEADER                     |
  ----------------------------------
@@ -22,6 +23,7 @@ Below is how all UIs are layered in a theme.
  ----------------------------------
 | THEME FOOTER                     |
  ----------------------------------
+ ```
 
 Folder 'Theme1' contains 4 folders:
 
@@ -31,6 +33,10 @@ Users can create additional folders inside 'assets' for structuring purposes lik
 - Partials:           All HTML blocks and pages which should be included in a theme can be added here. By default, this folder contains header.blade.php, footer.blade.php and template.blade.php and should NOT be deleted.
 - Layouts and Views:  Additional folders to structure extra theme components and plugin layouts if any.
 
+4) For a complex home page it is recommended that you separate out the styling for the home page from the rest of the theme.  You can do this by creating a `landingpage.blade.php` file in the `views` folder.  This `landingpage.blade.php` template, if it exists, will be displayed for the home page of the PGA and will be the only thing displayed as the home page.  This gives the theme developer freedom to put anything at all into this landing page.  This approach can be combined with a simple theme header and footer that will be shown in the PGA once logged in.
+
+* inside the landingpage.blade.php template use the urls `/create` and `/login` to link to the PGA *Create Account* and *Login* pages, respectively.
+* See https://github.com/SciGaP/siu-gateway-theme/blob/master/views/landingpage.blade.php for an example
 
 
 THEME HEADER:
