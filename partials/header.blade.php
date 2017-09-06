@@ -1,6 +1,5 @@
-<title>PGA for Science Gateways</title>
-
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/style.css"/>
+<!-- Header from theme -->
+<title>SimCCUS Gateway</title>
 
     <nav class="nav navbar-default">
 
@@ -13,8 +12,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ URL::to('/') }}/home">
-                PHP Gateway
+            <a class="navbar-brand page-scroll" href="https://igs.indiana.edu/">
+            	<img style="width:20px;" src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/IUTab.png" alt="IGS">
+            </a>
+            <a class="navbar-brand page-scroll" href="/">
+                SimCCUS Gateway
             </a>
         </div>
 
@@ -22,16 +24,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
-                    <a href="#page-top"></a>
+                    <a href="index.html#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{URL::to('/')}}/pages/documentation">Documentation</a>
+                    <a class="page-scroll" href="{{ URL::to('/') }}/pages/documentation">Documentation</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{URL::to('/')}}/pages/about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="{{URL::to('/')}}/#contact-scigap">Contact</a>
+                    <a class="page-scroll" href="{{ URL::to('/') }}/pages/about">About</a>
                 </li>
                 <!--
                 <li>
@@ -43,3 +42,4 @@
         <!-- /.navbar-collapse -->
     </div>
 </nav>
+</div>
