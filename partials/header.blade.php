@@ -1,5 +1,5 @@
 <!-- Header from theme -->
-<title>SimCCUS Gateway</title>
+<title>SimCCS Gateway</title>
 
     <nav class="nav navbar-default">
 
@@ -16,7 +16,7 @@
             	<img style="width:20px;" src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/img/IUTab.png" alt="IGS">
             </a>
             <a class="navbar-brand page-scroll" href="/">
-                SimCCUS Gateway
+                SimCCS Gateway
             </a>
         </div>
 
