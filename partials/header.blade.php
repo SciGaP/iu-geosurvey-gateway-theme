@@ -27,6 +27,9 @@
                     <a href="index.html#page-top"></a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="{{ URL::to('/') }}/../themes/{{Session::get('theme')}}/assets/app/SimCCS_Desktop_Client.jar">Download</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="{{ URL::to('/') }}/pages/documentation">Documentation</a>
                 </li>
                 <li>
