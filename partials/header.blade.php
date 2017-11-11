@@ -38,6 +38,9 @@
                     <a class="page-scroll" href="{{ URL::to('/') }}/pages/documentation">Documentation</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="{{ URL::to('/') }}/pages/data">SimCCS Data</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="{{ URL::to('/') }}/pages/about">About</a>
                 </li>
                 <!--
