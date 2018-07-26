@@ -7,8 +7,8 @@
       <p style="font-size:18px; margin-top:20px;" align="left">
       Kevin Ellett - Gateway PI and Research Scientist <br>
       Email: kmellett@indiana.edu <br>
-      Phone: (812) 856-3671
-      <a href="https://igws.indiana.edu/staff.cfm?user=kmellett"> Kevin's Staff Profile </a>
+      Phone: (812) 856-3671 <br>
+      <a href="https://igws.indiana.edu/staff.cfm?user=kmellett"> Kevin's Staff Profile </a> <br>
       The Indiana Geological and Water Survey <br>
       611 N. Walnut Grove St. <br>
       Bloomington, IN 47405-2208 <br>
