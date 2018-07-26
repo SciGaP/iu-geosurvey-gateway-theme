@@ -4,7 +4,7 @@
 
         <h3>Instruction for SimCCS Gateway Hackathon at PEARC18</h3>
            <ul style="font-size:18px; list-style-type:square">
-             <li><b> Task: </b></li>
+             <li><b> Task: Implementing a map interface for SimCCS Gateway </b></li>
              <li><a href="/themes/iu-geosurvey-gateway-theme/assets/img/PEARC18_SimCCS_guide.pdf" download>PEARC18 SimCCS Gateway Guide</a></li>
              <li>Download .geojson files for the hackathon</li>
                  <ul style="font-size:16px; list-style-type:square">
